@@ -1,0 +1,43 @@
+.slick-dots.slick-thumb {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.slick-slide img {
+    margin: auto;
+    width: 100%;
+}
+
+.slick-dots.slick-thumb li {
+    width: 6px;
+    height: 6px;
+    margin: 0 3px;
+    border-radius: 999px;
+    transition: all 0.5s ease-in-out;
+    will-change: width;
+    background-color: black;
+}
+  
+.slick-dots.slick-thumb li.slick-active {
+    background-color: red;
+    width: 24px;
+}
+
+.orl__quotes {
+    position: absolute;
+    right: 45%;
+    top: 6rem;
+    left: 15%;
+    padding-top: 1.25rem;
+    padding-bottom: 1.25rem;
+    color: #fff;
+    text-align: center;
+}
+
+.orl__quotes-img {
+    max-height: 550px;
+    width: auto;
+    right: 0;
+    float: right;
+}
